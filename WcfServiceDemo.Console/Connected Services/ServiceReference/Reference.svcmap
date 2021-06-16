@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="867f8186-b085-4842-bd38-bf546c718040" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55215/IpAddressService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IpAddressService.xsd" MetadataType="Schema" ID="b781bbfd-dc9c-4be6-9027-bba3c2c8d2a7" SourceId="1" SourceUrl="http://localhost:55215/IpAddressService.svc?xsd=xsd0" />
+    <MetadataFile FileName="IpAddressService.disco" MetadataType="Disco" ID="32d49510-dc2f-44ba-9bfa-c231d4a03f4a" SourceId="1" SourceUrl="http://localhost:55215/IpAddressService.svc?disco" />
+    <MetadataFile FileName="IpAddressService1.xsd" MetadataType="Schema" ID="3f4b8f61-b131-4678-a650-12e1f73dacb0" SourceId="1" SourceUrl="http://localhost:55215/IpAddressService.svc?xsd=xsd1" />
+    <MetadataFile FileName="IpAddressService2.xsd" MetadataType="Schema" ID="0ebe37e9-6bdf-4b7d-a2e6-d679b7650e2e" SourceId="1" SourceUrl="http://localhost:55215/IpAddressService.svc?xsd=xsd2" />
+    <MetadataFile FileName="IpAddressService.wsdl" MetadataType="Wsdl" ID="dfbe227d-783c-4e70-8e42-dd011fa8d518" SourceId="1" SourceUrl="http://localhost:55215/IpAddressService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
